@@ -33,7 +33,7 @@ function handler (request, response) {
 // Heroku doesn't support websockets so...
 // Detect if heroku via config vars
 // https://devcenter.heroku.com/articles/config-vars
-// heroku config:add HEROKU=true --app node-drawing-game
+// heroku config:add HEROKU=true --app drawdoodle
 if (process.env.HEROKU === 'true') {
     io.configure(function () {
         io.set("transports", ["xhr-polling"]);
