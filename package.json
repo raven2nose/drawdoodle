@@ -1,11 +1,11 @@
 {
-  "name": "DrawingGame",
+  "name": "drawdoodle",
   "version": "0.0.1",
   "main": "server.js",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wratter/nodejs-draw-game.git"
+    "url": "https://github.com/wratter/drawdoodle"
   },
   "dependencies": {
     "mime": "2.4.6",
